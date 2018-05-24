@@ -64,10 +64,7 @@ CREATE TABLE `modificari` (
 --
 
 INSERT INTO `modificari` (`id`, `nume`, `nume_produs`, `categorie`, `Actiune`, `Cantitate`, `pret_nou`, `data_modificari`) VALUES
-(9, 'Hila Aurel', 'Pall Mall Negru', 'Tigari', 'Cumparata', '1000', '16,50', '2018-05-16'),
-(10, 'Hila Aurel', 'Kent 8 Lung', 'Tigari', 'Cumparata', '3213', '18', '2018-05-16'),
-(11, 'Hila Aurel', 'Nesquick Ciocolata', 'Cereale', 'Cumparata', '121', '10.82', '2018-05-17'),
-(12, 'Hila Aurel', 'Kent 8 Lung', 'Tigari', 'Adaugata', '102', 'nemodificat', '2018-05-17');
+(9, 'Hila Aurel', 'Pall Mall Negru', 'Tigari', 'Cumparata', '1000', '16,50', '2018-05-16');
 
 -- --------------------------------------------------------
 
@@ -93,8 +90,6 @@ CREATE TABLE `produse` (
 --
 
 INSERT INTO `produse` (`cod_produs`, `prenume`, `data_mod`, `nume_produs`, `furnizor_produs`, `categorie`, `cantitate_cumparata`, `cantitate_vanduta`, `cantitate_ramasa`, `pret_produs`) VALUES
-(1231, 'Hila Aurel', '2018-05-17', 'Nesquick Ciocolata', 'Nestle', 'Cereale', '121', '-----', '121', '10.82'),
-(23145, 'Hila Aurel', '2018-05-17', 'Kent 8 Lung', 'British American Tobacco', 'Tigari', '3315', '-----', '3315', '18'),
 (351234, 'Hila Aurel', '2018-05-16', 'Pall Mall Negru', 'British American Tobacco', 'Tigari', '1000', '-----', '1000', '16,50');
 
 -- --------------------------------------------------------
@@ -118,9 +113,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `nume`, `username`, `Email`, `password`, `tip_acces`) VALUES
 (1, 'Hila Aurel', 'admin', 'admin@gmail.com', 'admin', 1),
-(4, 'Andrei Pop', 'andrei', 'andrei33@gmail.com', '12345', 0),
-(10, 'Soare Daniel', 'soare23', 'dsoare@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 0),
-(11, 'Scurtu Vlad ', 'scurtu23', 'scurtud@gmail.com', '25f9e794323b453885f5181f1b624d0b', 0);
+(10, 'Gigi Popescu', 'gigi23', 'gigipope@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 0);
 
 --
 -- Indexes for dumped tables
