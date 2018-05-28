@@ -9,7 +9,7 @@
 
 
     //Modificari produse
-    $sql = "SELECT * FROM modificari";
-    $rezultat = mysqli_query($connect, $sql);
+    //$sql = "SELECT * FROM modificari";
+    //$rezultat = mysqli_query($connect, $sql);
 
 ?>
